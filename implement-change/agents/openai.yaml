@@ -1,0 +1,3 @@
+interface:
+  display_name: "实现改动"
+  short_description: "按既定方案落代码；复杂任务必须先写 .wxt todo，并按项推进和回写验证"

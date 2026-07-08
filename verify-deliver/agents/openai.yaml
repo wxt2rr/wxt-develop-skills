@@ -1,0 +1,3 @@
+interface:
+  display_name: "验证交付"
+  short_description: "用需求映射、真实验证和风险说明判断任务是否真的完成"

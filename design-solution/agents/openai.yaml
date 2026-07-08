@@ -1,0 +1,3 @@
+interface:
+  display_name: "设计方案并锁契约"
+  short_description: "在需求明确后给唯一推荐方案，并锁接口、参数、行为与验证方式"
