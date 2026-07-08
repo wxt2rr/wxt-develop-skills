@@ -1,0 +1,38 @@
+{
+  "name": "wxt-develop-skills",
+  "version": "0.1.0",
+  "description": "A staged Codex skills package for requirement-driven software development.",
+  "author": {
+    "name": "wxt2rr",
+    "url": "https://github.com/wxt2rr"
+  },
+  "homepage": "https://github.com/wxt2rr/wxt-develop-skills",
+  "repository": "https://github.com/wxt2rr/wxt-develop-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "codex",
+    "development",
+    "workflow",
+    "planning",
+    "verification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WXT Develop Skills",
+    "shortDescription": "需求开发五阶段技能包：看懂项目、明确需求、设计方案、实现改动、验证交付",
+    "longDescription": "Use WXT Develop Skills to guide requirement-driven development from project understanding to delivery verification, with explicit boundaries, implementation discipline, and evidence-based completion checks.",
+    "developerName": "wxt2rr",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "先看懂这个项目再开始改。",
+      "把这个需求收敛成明确边界和唯一方案。",
+      "按方案实现并在完成前验证交付。"
+    ]
+  }
+}

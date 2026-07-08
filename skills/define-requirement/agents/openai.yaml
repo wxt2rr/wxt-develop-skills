@@ -1,0 +1,3 @@
+interface:
+  display_name: "明确需求"
+  short_description: "结合当前项目判断改动归属，收敛需求边界，并只提出必要的立即确认项"

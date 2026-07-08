@@ -27,14 +27,19 @@
 
 ```text
 wxt-develop-skills/
-├── understand-project/
-├── define-requirement/
-├── design-solution/
-├── implement-change/
-└── verify-deliver/
+├── .codex-plugin/
+│   └── plugin.json
+└── skills/
+    ├── understand-project/
+    ├── define-requirement/
+    ├── design-solution/
+    ├── implement-change/
+    └── verify-deliver/
 ```
 
-每个目录都是一个独立 Skill，核心说明在各自的 `SKILL.md` 里。
+我把这套仓库做成了带包级元数据的 Codex 插件结构。这样在 Codex 里展示时，可以按插件名作为前缀，而不是只显示裸 skill 名。
+
+每个 skill 的核心说明都在 `skills/<skill-name>/SKILL.md` 里。
 
 ## 安装方式
 ### 默认
